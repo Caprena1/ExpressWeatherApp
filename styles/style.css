@@ -1,0 +1,132 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    
+    background: linear-gradient(to right, rgb(255, 167, 35), rgb(255, 97, 35));
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-bottom: 40px;
+    color: goldenrod;
+    
+}
+
+h1 {
+    
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 50px;   
+    color: goldenrod
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-left: 625px;
+}
+
+h4 {
+    margin-top: 50px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: goldenrod;
+}
+
+.h1page2 {
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-left: 450px;
+    color: black
+}
+
+.icon {
+    width: 300px;
+    margin-top: 3px;
+
+}
+
+.img {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 300px;
+    border: 10px solid goldenrod;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    width: 1200px;
+    font-weight: 700;
+    background-color: blue;
+    box-shadow: 0 5px 10px black;
+    margin-left: 350px;
+    color: goldenrod
+}
+
+.container2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    width: 1200px;
+    height: 900px;
+    background-color: blue;
+    box-shadow: 0 5px 10px black;
+    margin-left: 350px;
+}
+
+.infobox {
+    font-size: 35px;
+    margin-top: 30px;
+    
+}
+
+.button {
+    background-color: rgb(255, 167, 35);
+    color: black;
+    width: 300px;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    margin-bottom: 45px;
+    font-size: 25px;
+    font-weight: 900;
+}  
+
+.button2 {
+    background-color: rgb(255, 167, 35);
+    color: black;
+    width: 300px;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 2px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 900;
+}  
+
+

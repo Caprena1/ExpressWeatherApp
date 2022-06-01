@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Weather Form Reply
+        link(rel="stylesheet", href="/styles/style.css")
+
+    body
+        h1.h1page2 Caprena's Weather Forecast
+        div.container2
+            div
+                h4 Weather for #{location} #{region}
+            div
+                
+                img.icon(src=icon)
+            div
+                div 
+                    p Current Temperature: #{temp} 
+                    p Condition: #{condition} 
+                    p Humidity: #{humidity} 
+                div 
+
+                button.button(type="reset" onclick="history.back()") Click for Another Search
+            div
+        div
+            
+    h2 Thank you for using my Weather App!      
+      

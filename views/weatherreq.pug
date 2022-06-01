@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Weather API
+        link(rel="stylesheet", href="/styles/style.css")
+    body
+        div.container
+            img.img(src="/images/weather-forecast.jpeg", alt="Weather Forecast Image")
+            h1 Caprena's Weather API 
+            form(action="/weatherreq", method="post") 
+                div
+                    label(for="city") Type in your Location: 
+                    input.infobox(name ="city" id ="city" placeholder="Enter a City" required)
+                div 
+                br
+                br
+                button.button(type="submit") Click Button for Weather!
+        div
+
+           
+       
