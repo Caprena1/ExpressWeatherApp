@@ -1,6 +1,5 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const { response } = require('express')
 const apikey = require('./apikey')
 const app = express()
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args))
