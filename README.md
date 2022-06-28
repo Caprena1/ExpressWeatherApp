@@ -4,7 +4,7 @@ This program enables a user to type in the name of a city and receive the curren
 The api used was https://www.weatherapi.com/ 
 
 ## Setup
-nmp install
+npm install
 
 ## Usage
 run node weatherapp.js
