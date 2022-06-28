@@ -5,6 +5,13 @@ The api used was https://www.weatherapi.com/
 
 ## Setup
 npm install
+go to https://www.weatherapi.com/, create a file named api key in root directory 
+```js
+const apikey = <put your API key here>
+
+module.exports = apikey
+```
+
 
 ## Usage
 run node weatherapp.js
