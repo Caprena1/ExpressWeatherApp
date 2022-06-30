@@ -1,9 +1,8 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const apikey = require('./apikey')
 const app = express()
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args))
-
+const dotenv = require('dotenv').config({path: './.env'})
 
 //SETTING VIEWS ENGINE
 app.set('views', './views')
@@ -24,7 +23,7 @@ app.get('/', (req, res) => {
 app.post('/weatherreq', (req, res) => {  
     const city = req.body.city
     
-    fetch(`http://api.weatherapi.com/v1/current.json?key=${apikey}&q=${city}&aqi=no`
+    fetch(`http://api.weatherapi.com/v1/current.json?key=${process.env.WEATHER_API_KEY}&q=${city}&aqi=no`
     )
     .then((response) => response.json())
     .then((resJson) => { 
